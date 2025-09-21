@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Durga Puja Wishing Card - Durjoy Ghosh</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Georgia', serif;
+      background: #ffcc80; /* fallback color */
+    }
+    .card {
+      width: 600px;
+      height: auto;
+      background: rgba(0, 0, 0, 0.75);
+      border-radius: 20px;
+      border: 3px solid #ff4500;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      color: #ffffff;
+      overflow: hidden;
+    }
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-bottom: 3px solid #ff4500;
+    }
+    .card-content {
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 10px 0;
+      color: #ffd700;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+    }
+    p {
+      font-size: 1.3em;
+      margin: 10px 0;
+    }
+    .name {
+      font-size: 1.6em;
+      font-weight: bold;
+      color: #ff4500;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    }
+
+    /* Hide the iframe for background music */
+    #bg-video {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Background music (YouTube embed) -->
+  <iframe id="bg-video" width="0" height="0" 
+          src="https://www.youtube.com/embed/VenNSdz6SjI?autoplay=1&loop=1&playlist=VenNSdz6SjI&mute=0" 
+          frameborder="0" allow="autoplay"></iframe>
+
+  <div class="card">
+    <!-- Maa Durga picture -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Durga_as_Mahishasura-mardini.jpg" alt="Maa Durga">
+
+    <!-- Durga temple picture -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Dakshineswar_Kali_Temple%2C_Kolkata.jpg" alt="Durga Temple">
+
+    <div class="card-content">
+      <h1>Shubho Durga Puja!</h1>
+      <p>May Maa Durga's divine blessings bring you strength and joy!</p>
+      <p class="name">From: Durjoy Ghosh</p>
+    </div>
+  </div>
+</body>
+</html>
